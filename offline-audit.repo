@@ -1,0 +1,6 @@
+[offline-audit]
+name=CentOS-$releasever - audit
+baseurl=file:///var/tmp/audit
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
